@@ -53,24 +53,26 @@ If LEVEL-5 or GitHub requests removal, the repository will be taken down.
 ## 🚀 How to Use  
 1. Launch **Inazuma Eleven: Victory Road**  
 2. Set the game to **Windowed → 1024x576**  
-3. Place the window on any monitor  
-4. Run `ievr.exe`  
-5. Press **Start Bot**  
-6. The tool will automatically:
+3. Place the window on any monitor
+4. Go on "Competitive Game" -> "Online Match"
+5. Run `ievr.exe`  
+6. Press **Start Bot**  
+7. The tool will automatically:
    - Detect the game window  
-   - Ask you to hover over specific buttons to capture offsets  
-   - Begin the matchmaking loop  
+   - Ask you to hover over specific buttons to capture offsets (if not already registered)  
+   - Begin the matchmaking loop
+   - Detects when matchmaking fails for whatever reason  
    - Detect when a match starts  
-   - Detect when a match ends  
+   - Detect when a match ends / opponent leaves  
    - Repeat until you stop it  
 
-All timing behaviors are customizable inside `_internal/settings.py`.
+All timing behaviors are customizable inside `_internal/settings.py` OR (reccomended) inside the "Settings" tab in the app itself.
 
 ---
 
 ## 🛠 Customization
 
-You can freely tweak all timings and behaviors:
+You can freely tweak all timings and behaviors in `_internals/settings.py` if you want more freedom in doing so:
 
 ```python
 AUTO_MODE_KEY = "u"         # key to enable auto-mode
