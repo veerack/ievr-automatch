@@ -66,7 +66,7 @@ If LEVEL-5 or GitHub requests removal, the repository will be taken down.
    - Detect when a match ends / opponent leaves  
    - Repeat until you stop it  
 
-All timing behaviors are customizable inside `_internal/settings.py` OR (reccomended) inside the "Settings" tab in the app itself.
+All timing behaviors are customizable inside `_internal/settings.py` OR (recommended) inside the "Settings" tab in the app itself.
 
 ---
 
