@@ -90,7 +90,7 @@ ANNUL_PIXEL_COLOR = (250, 253, 254)                # rgb color of ANNUL_PIXEL_OF
 END_BUTTON_OFFSET = (60, 57)                       # offset of the pixel we check to validate wether a match ended or not
 END_BUTTON_COLOR = (172, 158, 48)                  # rgb color of END_BUTTON_OFFSET
 LVL_75_PLUS = False                                # toggle for teams with all characters above lvl. 75. performs more clicks at the end if disabled
-MATCH_TIMEOUT_MARGIN = 120.0                       # how much marging we give before assuming the match ended/never started and re-starting the cycle. this adds uo to MATCH_DURATION
+MATCH_TIMEOUT_MARGIN = 120.0                       # how much marging we give before assuming the match ended/never started and re-starting the cycle (MATCH_DURATION + this)
 MAX_MATCHES_PER_RUN = None                         # how many matches the script will record before stopping by itself. leave "None" or 0 for infinite
 MAX_RUNTIME_MINUTES = None                         # how many minutes the script will run before stopping by itself. leave "None" or 0 for infinite
 ```
