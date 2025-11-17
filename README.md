@@ -66,19 +66,31 @@ If LEVEL-5 or GitHub requests removal, the repository will be taken down.
    - Detect when a match ends / opponent leaves  
    - Repeat until you stop it  
 
-All timing behaviors are customizable inside `_internal/settings.py` OR (recommended) inside the "Settings" tab in the app itself.
-
 ---
 
 ## 🛠 Customization
 
-You can freely tweak all timings and behaviors in `_internals/settings.py` if you want more freedom in doing so:
+If you want more freedom with the settings, you can edit them at the source in `base/settings.py`. This folder gets created after you've ran the script once and its where all the settings for the script are stored:
 
 ```python
-AUTO_MODE_KEY = "u"         # key to enable auto-mode
-FIRST_WAIT = 45             # wait after clicking "Ranked Match"
-SECOND_WAIT = 80            # wait before enabling auto-mode
-MATCH_DURATION = 780        # fallback time if HUD detection fails
-SEARCH_CHECK_INTERVAL = 20  # how often to check match status
-POST_MATCH_CLICKS = 20      # number of clicks to return to menu
+GAME_WINDOW_TITLE = 'Inazuma Eleven: Victory Road' # title of the windows window of the game (don't change)
+AUTO_MODE_KEY = 'u'                                # which key to press to enable commander mode
+
+DELAY_BEFORE_START = 5.0                           # how many seconds to wait before starting the script after clicking "Start"
+FIRST_WAIT = 15.0                                  # how many seconds to wait between the checks to see if a game has been found or not
+SECOND_WAIT = 80.0                                 # how many seconds to wait after FIRST_WAIT completed before activating commander mode
+MATCH_DURATION = 780                               # estimated duration of the matches, usually fine to leave it at 780
+POST_MATCH_CLICKS = 20                             # how many clicks the script does at the end of the match to go back to the home screen
+POST_MATCH_CLICK_INTERVAL = 0.3                    # interval between the POST_MATCH_CLICKS
+SEARCH_CHECK_INTERVAL = 20.0                       # interval between the checks in-match to confirm wether the match is still going or not
+
+PLAY_BUTTON_OFFSET = (292, 247)                    # offset for the button to start queueing
+ANNUL_PIXEL_OFFSET = (499, 375)                    # offset for the button to cancel matchmaking
+ANNUL_PIXEL_COLOR = (250, 253, 254)                # rgb color of ANNUL_PIXEL_OFFSET
+END_BUTTON_OFFSET = (60, 57)                       # offset of the pixel we check to validate wether a match ended or not
+END_BUTTON_COLOR = (172, 158, 48)                  # rgb color of END_BUTTON_OFFSET
+LVL_75_PLUS = False                                # toggle for teams with all characters above lvl. 75. performs more clicks at the end if disabled
+MATCH_TIMEOUT_MARGIN = 120.0                       # how much marging we give before assuming the match ended/never started and re-starting the cycle. this adds uo to MATCH_DURATION
+MAX_MATCHES_PER_RUN = None                         # how many matches the script will record before stopping by itself. leave "None" or 0 for infinite
+MAX_RUNTIME_MINUTES = None                         # how many minutes the script will run before stopping by itself. leave "None" or 0 for infinite
 ```
