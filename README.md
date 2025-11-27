@@ -179,42 +179,42 @@ RAMEN_AFTER_FINAL_WAIT = 5.0
 CHIAKI4DECK = False
 
 # ------- Pink Beans trainer defaults -------
-PINK_INITIAL_DELAY = 5.0              # attesa prima di iniziare il loop
+PINK_INITIAL_DELAY = 5.0              
 
-PINK_ENTER1_DELAY = 1.2               # dopo primo ENTER
-PINK_ENTER2_DELAY = 0.7               # dopo secondo ENTER
-PINK_UP_DELAY = 0.1                   # dopo UP
-PINK_ENTER3_DELAY = 0.2               # dopo terzo ENTER
-PINK_ENTER4_DELAY = 7.0               # dopo quarto ENTER (animazione)
+PINK_ENTER1_DELAY = 1.2               
+PINK_ENTER2_DELAY = 0.7               
+PINK_UP_DELAY = 0.1                  
+PINK_ENTER3_DELAY = 0.2               
+PINK_ENTER4_DELAY = 7.0              
 
-PINK_ESC_AFTER_DELAY = 0.1            # dopo ESC
-PINK_V_AFTER_DELAY = 2.0              # dopo singolo 'v'
+PINK_ESC_AFTER_DELAY = 0.1            
+PINK_V_AFTER_DELAY = 2.0              
 
-PINK_V_HOLD_DURATION = 2.0            # durata HOLD v
-PINK_AFTER_HOLD_DELAY = 3.0           # dopo HOLD v
+PINK_V_HOLD_DURATION = 2.0           
+PINK_AFTER_HOLD_DELAY = 3.0           
 
-PINK_DOWN_DELAY = 0.5                 # dopo DOWN
-PINK_FINAL_ENTER_DELAY = 4.0          # dopo ENTER finale
+PINK_DOWN_DELAY = 0.5                
+PINK_FINAL_ENTER_DELAY = 4.0          
 
 # ---- Blue Beans trainer (Hecaton Stairway) ----
-BLUE_INITIAL_DELAY    = 5.0   # before starting first cycle
+BLUE_INITIAL_DELAY    = 5.0   
 
-BLUE_ENTER1_DELAY     = 1.2   # after 1st ENTER
-BLUE_ENTER2_DELAY     = 0.7   # after 2nd ENTER
-BLUE_UP_DELAY         = 0.3   # after UP
-BLUE_ENTER3_DELAY     = 0.3   # after 3rd ENTER
-BLUE_ENTER4_DELAY     = 7.0   # after 4th ENTER (animation)
+BLUE_ENTER1_DELAY     = 1.2   
+BLUE_ENTER2_DELAY     = 0.7   
+BLUE_UP_DELAY         = 0.3   
+BLUE_ENTER3_DELAY     = 0.3   
+BLUE_ENTER4_DELAY     = 7.0   
 
-BLUE_A1_DELAY         = 4.5   # after first A
-BLUE_S1_DELAY         = 8.5   # after first S
-BLUE_A2_DELAY         = 4.0   # after second A
-BLUE_S2_DELAY         = 10.0  # after second S
-BLUE_A3_DELAY         = 3.0   # after third A
-BLUE_S3_DELAY         = 5.0   # after third S
-BLUE_A4_DELAY         = 12.0  # after fourth A
+BLUE_A1_DELAY         = 4.5   
+BLUE_S1_DELAY         = 8.5   
+BLUE_A2_DELAY         = 4.0   
+BLUE_S2_DELAY         = 10.0 
+BLUE_A3_DELAY         = 3.0   
+BLUE_S3_DELAY         = 5.0   
+BLUE_A4_DELAY         = 12.0  
 
-BLUE_ENTER5_DELAY     = 1.5   # after last ENTER
-BLUE_COOLDOWN_DELAY   = 70.0  # cooldown between cycles
+BLUE_ENTER5_DELAY     = 1.5   
+BLUE_COOLDOWN_DELAY   = 70.0 
 ```
 
 ⚠ Editing incorrect values may break automation behaviour.
