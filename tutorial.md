@@ -16,6 +16,7 @@ https://github.com/veerack/ievr-automatch/releases
 <img width="898" height="129" alt="image" src="https://github.com/user-attachments/assets/803c0ad2-bb4b-479f-b142-81a0bc463b6e" />
 
 Once downloaded, extract the `.zip` file, place the folder you got by extracting the zip anywhere easily accessible. Open it and you should be having the following folder content
+
 <img width="643" height="90" alt="image" src="https://github.com/user-attachments/assets/8c713d3c-d2cf-4737-8c32-3af3d604bc52" />
 
 Open `IEVR.exe` and that is the main application, containing all the logic and the settings. First thing first, let's make a small walkthrough of the App.
