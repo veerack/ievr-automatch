@@ -4,7 +4,7 @@
 # Start Here
 > [!CAUTION]
 > First and foremost: this script is provided solely for accessibility purposes, and whoever decides to follow through is aware of the risk. The author (me) will not be responsible for any issue with the user's accounts in the future.
-> We're not injecting or editing the game in any sort of way, but the EAC (might) still consider this in the "Macroes" category of things. That's your warning, proceed only if you understand this.
+> We're not injecting or editing the game in any sort of way, but the EAC (might) still consider this in the "cheats" category of things. That's your warning, proceed only if you understand this.
 
 # Installation
 Before proceeding to install, make sure your computer has atleast the following required things:
