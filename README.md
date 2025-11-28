@@ -24,6 +24,11 @@ If LEVEL‑5 or GitHub request removal, the repository will be taken down immedi
 
 ---
 
+# ⚡ TUTORIAL / GUIDE
+A simple follow-through guide for setup is available [here](https://github.com/veerack/ievr-automatch/blob/main/tutorial.md)
+
+---
+
 ## ✨ Features
 
 ### Core
