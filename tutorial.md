@@ -71,7 +71,7 @@ How's this done is basically: we'll remote into your PS5 using a program called 
 Once done, opening back `IEVR.exe`, you want to enable the following setting in the `Settings` tab:
 <img width="1375" height="147" alt="image" src="https://github.com/user-attachments/assets/6abdef57-2915-4878-b09d-c53db769bbc1" />
 
-After enabling it and clicking `Apply Settings`, the application will ask for your consent to download the required packages/drivers for the `Virtual Controllers` (`vgamepad` + `ViGeMbUs`) to work. Simply accept and install whatever the app asks you to, and after doing so, restart the application, go into the `Settings` tab again, change the window title setting to `chiaki-ng`, enable the `Chiaki4Deck` setting and `Apply Settings`.
+After enabling it and clicking `Apply Settings`, the application will ask for your consent to download the required packages/drivers for the `Virtual Controllers` (`vgamepad` + `ViGEmBus`) to work. Simply accept and install whatever the app asks you to, and after doing so, restart the application, go into the `Settings` tab again, change the window title setting to `chiaki-ng`, enable the `Chiaki4Deck` setting and `Apply Settings`.
 
 Once done, you're all set! Open `chiaki-ng`, connect to your playstation, open `Inazuma Eleven: Victory Road` and enjoy the app! 😄
 
