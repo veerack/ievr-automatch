@@ -1,3 +1,7 @@
+# DISCONTINUED
+- The tool has been discontinued and wont receive any update. The repository will stay public just for reference. Thanks to everyone for helping out with this small project and to whoever decided to use it rather than blatantly cheating in the game!
+- *Why?: The game is evolving very fast, changing mechanics every so and on, and majority of the playerbase took advantage of bugs and glitches to get all they needed in the game.. keeping this tool maintained made no sense personally.*
+
 # ⚡ IEVR Helper – Inazuma Eleven Victory Road Automation
 
 *A modern, GUI-based automation toolkit for Inazuma Eleven: Victory Road (PC)*
